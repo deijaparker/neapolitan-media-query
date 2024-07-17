@@ -1,21 +1,125 @@
-/* --------------------------Desktop  */
-@media(max-width: 2280px) {
+@media (max-width: 2280px) {
     body {
       background-color: brown;
+      color: peru;
+    }
+    .titleContainer {
+      border: solid peru;
+      height: 40vh;
+      margin: 1em;
+      font-size: 50px;
+      text-align: center;
+    }
+    .picContainer {
+      border: solid black;
+      height: 40vh;
+      background-image: url("https://t3.ftcdn.net/jpg/05/61/10/64/360_F_561106480_HxVfagn7jLyyHyIZ4lAcDgdsydhtp4jR.jpg");
+    }
+    .logo {
+      border: solid yellow;
+      height: 20vh;
+      margin: 2em;
+    }
+    #chocolate {
+      width: 250px;
+      display:block;
+    }
+    #vanilla {
+      width: 33%;
+      display:none;
+    }
+    #strawberry {
+      width: 33%;
+      display:none;
     }
   }
-
-/* --------------------------Mid  */
-@media(max-width: 1480px) {
+  /* ------------Desktop  */
+  
+  @media (max-width: 1480px) {
     body {
       background-color: lemonchiffon;
     }
+    .titleContainer {
+      border: solid burlywood;
+      height: 40vh;
+      margin: 1em;
+      font-size: 50px;
+      text-align: center;
+      color: burlywood;
+    }
+    .picContainer {
+      border: solid black;
+      height: 40vh;
+      background-image: url("https://media.istockphoto.com/id/948032164/photo/ice-cream.jpg?s=612x612&w=0&k=20&c=EWy8rEsWVuv67-DWH0a-rAlI7GSy1FAU237yg1TwFKg=");
+    }
+    .logo {
+      border: solid green;
+      height: 20vh;
+      margin: 2em;
+    }
+    #chocolate {
+      width: 33%;
+      display:none;
+    }
+    #vanilla {
+      width: 250px;
+      display:block;
+    }
+    #strawberry {
+      width: 33%;
+      display:none;
+    }
   }
-
-/* --------------------------Mobile  */
-
-@media (max-width: 880px) {
+  /* ---------------Mid  */
+  
+  @media (max-width: 880px) {
     body {
       background-color: pink;
     }
+  
+    .titleContainer {
+      border: solid white;
+      height: 40vh;
+      margin: 1em;
+      font-size: 50px;
+      text-align: center;
+      color: white;
+    }
+    .picContainer {
+      border: solid black;
+      height: 40vh;
+      background-image: url("https://t3.ftcdn.net/jpg/01/94/58/96/360_F_194589639_QrC7pzqnyPtzlSNydJT7QDrWWO0kd1dt.jpg");
+    }
+    .logo {
+      border: solid blue;
+      height: 20vh;
+      margin: 2em;
+    }
+    #chocolate {
+      display:none;
+  
+    }
+    #vanilla {
+      width: 33%;
+      display:none;
+    }
+    #strawberry {
+      width:250px;
+      height:250px;
+      display:block;
+    }
   }
+  /* -------------Mobile  */
+  
+  /* -------GeneralCSS */
+  
+  .icon {
+    height: 120px;
+    width: 120px;
+  }
+  .sectionContainer {
+    border: solid black;
+    height: 40vh;
+    margin: 1em;
+  }
+  /* ---------------- */
