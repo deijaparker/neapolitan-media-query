@@ -1,0 +1,21 @@
+/* --------------------------Desktop  */
+@media(max-width: 2280px) {
+    body {
+      background-color: brown;
+    }
+  }
+
+/* --------------------------Mid  */
+@media(max-width: 1480px) {
+    body {
+      background-color: lemonchiffon;
+    }
+  }
+
+/* --------------------------Mobile  */
+
+@media (max-width: 880px) {
+    body {
+      background-color: pink;
+    }
+  }
